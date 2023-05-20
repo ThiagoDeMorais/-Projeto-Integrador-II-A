@@ -1,0 +1,4 @@
+org\openjfx\hellofx\PrimaryController.class
+module-info.class
+org\openjfx\hellofx\SecondaryController.class
+org\openjfx\hellofx\App.class
