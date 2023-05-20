@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Pergunta {
-	private int identificacao;
+	private int id;
 	private String enunciado;
 	private  List<String> alternativas = new ArrayList<>();
 	
@@ -17,11 +17,11 @@ public class Pergunta {
 	}
 
 	public int getId() {
-		return identificacao;
+		return id;
 	}
 
 	public void setId(int id) {
-		this.identificacao = id;
+		this.id = id;
 	}
 
 	public String getEnunciado() {
