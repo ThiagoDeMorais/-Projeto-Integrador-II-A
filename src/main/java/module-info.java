@@ -6,4 +6,7 @@ module ProjetoIntegradorFX {
 
     opens controle to javafx.fxml;
     exports controle;
+    
+    opens gui to javafx.fxml;
+    exports gui;
 }

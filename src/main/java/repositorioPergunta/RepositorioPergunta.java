@@ -7,7 +7,7 @@ import conn.Conexao;
 import dominio.Pergunta;
 
 public class RepositorioPergunta {
-	public static void salvar(dominio.Pergunta pergunta) {
+	public static void salvar(Pergunta pergunta) {
 		try(Connection conn = Conexao.getConnection();
 			PreparedStatement ps = PreparedStatementSalvar(conn, pergunta)) {
 				
